@@ -1,1 +1,1 @@
-## H2 About Linux Update Services
+# About Linux Update Services
