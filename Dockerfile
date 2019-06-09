@@ -9,4 +9,4 @@ RUN apt-get install virtualenv -y
 RUN apt-get install ssmtp -y
 RUN apt-get install mailutils -y
 RUN apt-get install sendemail -y
-RUN /opt/linuxupdateservices/sendmail.sh -y
+RUN /opt/linuxupdateservices/sendmail.sh 
