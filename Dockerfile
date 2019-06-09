@@ -1,7 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Geraldo Lucas Poli <linuxupdateservices@techpoli.info>
-LABEL  "inux Update Services"
-LABEL linuxupdateservices.techpoli.info  "0.0.3-beta"
+LABEL version="0.0.4-beta" description="Linux Update Services" maintainer="Geraldo Lucas Poli<linuxupdateservices@techpoli.info>"
 RUN apt-get update
 RUN apt-get install python -y
 RUN apt-get install git -y
